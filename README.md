@@ -1,4 +1,4 @@
-# Project Name
+# Animal-Rescue-Interactive-Database-Jupyter-Dashboard
 > The dashboard utilizes a database to populate a data table and applies an interactive map and pie chart to visually help the user understand the data. Additionally, the dashboard has built in filter that can either but toggled or written to better traverse the data. 
 
 ## Table of Contents
@@ -6,12 +6,10 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
+* [Steps](#steps)
+* [Obstacles](#obstacles)
+* [Questions](#questions)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
 
 
 ## General Information
@@ -58,12 +56,16 @@ List the ready features here:
 
 ## Questions
 - How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
--  - Preplanning is essential of writing programs that are maintainable, readable, and adaptable. 
-- How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
-- -
-- What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
-- -
 
+  Preplanning is essential of writing programs that are maintainable, readable, and adaptable. A good example is how I implemented the CRUD object in Python. Breaking down every component and working on them indivudally, debuging, and testing. Additionally, diagrams and comments also help complete the picture of writing great code.
+
+- How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+  My approach was to first understand the problem. View it from multiple angles and see how the pieces of the project could possibly fit together. Then comes the planning phase, creating diagrams for the database, and the system. Additionally, researching appropriate technology to be utilized is esential in not only solving the problem, but elevating it. Getting the database up and running came first for the implementation. Next, the CRUD Python script for interacting with the database. Finally, creating the dashboard application and setting up the user experience. All while testing every component along the way, ensuring a smooth transition to the finish line of the project.
+
+- What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+  Computer scientist are problem solvers. They take a problem and apply various technology to solve the problem.
 
 ## Project Status
 Project is: _complete_
