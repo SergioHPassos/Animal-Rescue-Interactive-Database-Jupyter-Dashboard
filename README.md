@@ -1,6 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> The dashboard utilizes a database to populate a data table and applies an interactive map and pie chart to visually help the user understand the data. Additionally, the dashboard has built in filter that can either but toggled or written to better traverse the data. 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -13,77 +12,58 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+> This was a final project for CS-340 Client/Server Development. This project was to have a better understanding of MongoDB, Python, and Jupyter Notebook. Weaving together these three technolgies to solve a problem. The client finds capable animals and trains them for search and rescue. This dashboard allows the client to quickly view the data and filter the data based on what the client is looking for.
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- MongoDB - shell version 4.2.6
+- Jupyter Core - version 4.5.0
+- Juypter-Notebook - version 6.0.1
+- Python - version 3.6.9
+- PyMongo - version 3.12.0
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Data table for displaying the data from the database
+- Pie chart for visualizing the data
+- Map for visualizing the data
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![Initial State](./img/initial-state.png)
+![Water Rescue Filter](./img/water.png)
+![Mountain Rescue Filter](./img/mountain.png)
+![Disaster Rescue Filter](./img/disaster.png)
+![Reset Filter](./img/reset.png)
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## Steps
+- Setting up the MongoDB database and administrator access for data manipulation
+- Installing Jupyter Notebook
+- Installing Python
+- Designing and creating a CRUD object for interfacing with the MongoDB database in Python
+- Testing that Python object and ensuring successful interaction with the database
+- Designing the Dash application in Jupyter Notebook
+- Testing the Dash application with the CRUD object, ensuring that the data is being collected and displayed properly.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+
+## Obstacles
+- Designing the Dash application was proven to be slightly challenging. Since it needs good web development understanding of Javascript, HTML, and CSS.
+- MongoDB has a “_id” field that uses a custom Object to represent the value. This object wasn’t playing nicely with the data table—Dash component—which made it again slightly difficult to debug.  
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+## Questions
+- How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+-  - Preplanning is essential of writing programs that are maintainable, readable, and adaptable. 
+- How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+- -
+- What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+- -
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Project is: _complete_
