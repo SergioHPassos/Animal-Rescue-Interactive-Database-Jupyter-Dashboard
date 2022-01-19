@@ -1,5 +1,5 @@
 # Animal-Rescue-Interactive-Database-Jupyter-Dashboard
-> The dashboard utilizes a database to populate a data table and applies an interactive map and pie chart to visually help the user understand the data. Additionally, the dashboard has built in filter that can either but toggled or written to better traverse the data. 
+> The dashboard utilizes a database to populate a data table and applies an interactive map and pie chart to visually help the user understand the data. Additionally, the dashboard has a built in filter that can either be toggled, or written to better traverse the data. 
 
 ## Table of Contents
 * [General Info](#general-information)
